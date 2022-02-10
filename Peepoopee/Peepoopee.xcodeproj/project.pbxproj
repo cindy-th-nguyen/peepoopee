@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A070165527B5B9A90079D2CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070165427B5B9A90079D2CF /* AppDelegate.swift */; };
+		A070165727B5B9A90079D2CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070165627B5B9A90079D2CF /* SceneDelegate.swift */; };
+		A070165927B5B9A90079D2CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070165827B5B9A90079D2CF /* ViewController.swift */; };
+		A070165C27B5B9A90079D2CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A070165A27B5B9A90079D2CF /* Main.storyboard */; };
+		A070165E27B5B9AB0079D2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A070165D27B5B9AB0079D2CF /* Assets.xcassets */; };
+		A070166127B5B9AB0079D2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A070165F27B5B9AB0079D2CF /* LaunchScreen.storyboard */; };
+		A070166627B5B9AB0079D2CF /* Peepoopee WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A070166527B5B9AB0079D2CF /* Peepoopee WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A070166C27B5B9AB0079D2CF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A070166A27B5B9AB0079D2CF /* Interface.storyboard */; };
+		A070166E27B5B9AD0079D2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A070166D27B5B9AD0079D2CF /* Assets.xcassets */; };
+		A070167427B5B9AD0079D2CF /* Peepoopee WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A070167327B5B9AD0079D2CF /* Peepoopee WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A070167927B5B9AD0079D2CF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070167827B5B9AD0079D2CF /* InterfaceController.swift */; };
+		A070167B27B5B9AD0079D2CF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070167A27B5B9AD0079D2CF /* ExtensionDelegate.swift */; };
+		A070167D27B5B9AD0079D2CF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070167C27B5B9AD0079D2CF /* NotificationController.swift */; };
+		A070167F27B5B9AD0079D2CF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070167E27B5B9AD0079D2CF /* ComplicationController.swift */; };
+		A070168127B5B9AE0079D2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A070168027B5B9AE0079D2CF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A070166727B5B9AB0079D2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A070164927B5B9A90079D2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A070166427B5B9AB0079D2CF;
+			remoteInfo = "Peepoopee WatchKit App";
+		};
+		A070167527B5B9AD0079D2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A070164927B5B9A90079D2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A070167227B5B9AD0079D2CF;
+			remoteInfo = "Peepoopee WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A070168927B5B9AE0079D2CF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A070167427B5B9AD0079D2CF /* Peepoopee WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A070168D27B5B9AE0079D2CF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A070166627B5B9AB0079D2CF /* Peepoopee WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A070165127B5B9A90079D2CF /* Peepoopee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peepoopee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A070165427B5B9A90079D2CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A070165627B5B9A90079D2CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A070165827B5B9A90079D2CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A070165B27B5B9A90079D2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A070165D27B5B9AB0079D2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A070166027B5B9AB0079D2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A070166227B5B9AB0079D2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A070166527B5B9AB0079D2CF /* Peepoopee WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peepoopee WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A070166B27B5B9AB0079D2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A070166D27B5B9AD0079D2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A070167327B5B9AD0079D2CF /* Peepoopee WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Peepoopee WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A070167827B5B9AD0079D2CF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A070167A27B5B9AD0079D2CF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A070167C27B5B9AD0079D2CF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A070167E27B5B9AD0079D2CF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A070168027B5B9AE0079D2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A070168227B5B9AE0079D2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A070168327B5B9AE0079D2CF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A070164E27B5B9A90079D2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A070167027B5B9AD0079D2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A070164827B5B9A90079D2CF = {
+			isa = PBXGroup;
+			children = (
+				A070165327B5B9A90079D2CF /* Peepoopee */,
+				A070166927B5B9AB0079D2CF /* Peepoopee WatchKit App */,
+				A070167727B5B9AD0079D2CF /* Peepoopee WatchKit Extension */,
+				A070165227B5B9A90079D2CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A070165227B5B9A90079D2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A070165127B5B9A90079D2CF /* Peepoopee.app */,
+				A070166527B5B9AB0079D2CF /* Peepoopee WatchKit App.app */,
+				A070167327B5B9AD0079D2CF /* Peepoopee WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A070165327B5B9A90079D2CF /* Peepoopee */ = {
+			isa = PBXGroup;
+			children = (
+				A070165427B5B9A90079D2CF /* AppDelegate.swift */,
+				A070165627B5B9A90079D2CF /* SceneDelegate.swift */,
+				A070165827B5B9A90079D2CF /* ViewController.swift */,
+				A070165A27B5B9A90079D2CF /* Main.storyboard */,
+				A070165D27B5B9AB0079D2CF /* Assets.xcassets */,
+				A070165F27B5B9AB0079D2CF /* LaunchScreen.storyboard */,
+				A070166227B5B9AB0079D2CF /* Info.plist */,
+			);
+			path = Peepoopee;
+			sourceTree = "<group>";
+		};
+		A070166927B5B9AB0079D2CF /* Peepoopee WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A070166A27B5B9AB0079D2CF /* Interface.storyboard */,
+				A070166D27B5B9AD0079D2CF /* Assets.xcassets */,
+			);
+			path = "Peepoopee WatchKit App";
+			sourceTree = "<group>";
+		};
+		A070167727B5B9AD0079D2CF /* Peepoopee WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A070167827B5B9AD0079D2CF /* InterfaceController.swift */,
+				A070167A27B5B9AD0079D2CF /* ExtensionDelegate.swift */,
+				A070167C27B5B9AD0079D2CF /* NotificationController.swift */,
+				A070167E27B5B9AD0079D2CF /* ComplicationController.swift */,
+				A070168027B5B9AE0079D2CF /* Assets.xcassets */,
+				A070168227B5B9AE0079D2CF /* Info.plist */,
+				A070168327B5B9AE0079D2CF /* PushNotificationPayload.apns */,
+			);
+			path = "Peepoopee WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A070165027B5B9A90079D2CF /* Peepoopee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A070168E27B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee" */;
+			buildPhases = (
+				A070164D27B5B9A90079D2CF /* Sources */,
+				A070164E27B5B9A90079D2CF /* Frameworks */,
+				A070164F27B5B9A90079D2CF /* Resources */,
+				A070168D27B5B9AE0079D2CF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A070166827B5B9AB0079D2CF /* PBXTargetDependency */,
+			);
+			name = Peepoopee;
+			productName = Peepoopee;
+			productReference = A070165127B5B9A90079D2CF /* Peepoopee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A070166427B5B9AB0079D2CF /* Peepoopee WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A070168A27B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee WatchKit App" */;
+			buildPhases = (
+				A070166327B5B9AB0079D2CF /* Resources */,
+				A070168927B5B9AE0079D2CF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A070167627B5B9AD0079D2CF /* PBXTargetDependency */,
+			);
+			name = "Peepoopee WatchKit App";
+			productName = "Peepoopee WatchKit App";
+			productReference = A070166527B5B9AB0079D2CF /* Peepoopee WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A070167227B5B9AD0079D2CF /* Peepoopee WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A070168627B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee WatchKit Extension" */;
+			buildPhases = (
+				A070166F27B5B9AD0079D2CF /* Sources */,
+				A070167027B5B9AD0079D2CF /* Frameworks */,
+				A070167127B5B9AD0079D2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Peepoopee WatchKit Extension";
+			productName = "Peepoopee WatchKit Extension";
+			productReference = A070167327B5B9AD0079D2CF /* Peepoopee WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A070164927B5B9A90079D2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A070165027B5B9A90079D2CF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A070166427B5B9AB0079D2CF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A070167227B5B9AD0079D2CF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A070164C27B5B9A90079D2CF /* Build configuration list for PBXProject "Peepoopee" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A070164827B5B9A90079D2CF;
+			productRefGroup = A070165227B5B9A90079D2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A070165027B5B9A90079D2CF /* Peepoopee */,
+				A070166427B5B9AB0079D2CF /* Peepoopee WatchKit App */,
+				A070167227B5B9AD0079D2CF /* Peepoopee WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A070164F27B5B9A90079D2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070166127B5B9AB0079D2CF /* LaunchScreen.storyboard in Resources */,
+				A070165E27B5B9AB0079D2CF /* Assets.xcassets in Resources */,
+				A070165C27B5B9A90079D2CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A070166327B5B9AB0079D2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070166E27B5B9AD0079D2CF /* Assets.xcassets in Resources */,
+				A070166C27B5B9AB0079D2CF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A070167127B5B9AD0079D2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070168127B5B9AE0079D2CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A070164D27B5B9A90079D2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070165927B5B9A90079D2CF /* ViewController.swift in Sources */,
+				A070165527B5B9A90079D2CF /* AppDelegate.swift in Sources */,
+				A070165727B5B9A90079D2CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A070166F27B5B9AD0079D2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A070167D27B5B9AD0079D2CF /* NotificationController.swift in Sources */,
+				A070167F27B5B9AD0079D2CF /* ComplicationController.swift in Sources */,
+				A070167B27B5B9AD0079D2CF /* ExtensionDelegate.swift in Sources */,
+				A070167927B5B9AD0079D2CF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A070166827B5B9AB0079D2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A070166427B5B9AB0079D2CF /* Peepoopee WatchKit App */;
+			targetProxy = A070166727B5B9AB0079D2CF /* PBXContainerItemProxy */;
+		};
+		A070167627B5B9AD0079D2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A070167227B5B9AD0079D2CF /* Peepoopee WatchKit Extension */;
+			targetProxy = A070167527B5B9AD0079D2CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A070165A27B5B9A90079D2CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A070165B27B5B9A90079D2CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A070165F27B5B9AB0079D2CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A070166027B5B9AB0079D2CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A070166A27B5B9AB0079D2CF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A070166B27B5B9AB0079D2CF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A070168427B5B9AE0079D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A070168527B5B9AE0079D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A070168727B5B9AE0079D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Peepoopee WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Peepoopee WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Peepoopee.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A070168827B5B9AE0079D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Peepoopee WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Peepoopee WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Peepoopee.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A070168B27B5B9AE0079D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Peepoopee_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Peepoopee WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cnguyen.Peepoopee;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Peepoopee.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A070168C27B5B9AE0079D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Peepoopee_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Peepoopee WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cnguyen.Peepoopee;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Peepoopee.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A070168F27B5B9AE0079D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Peepoopee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Peepoopee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A070169027B5B9AE0079D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Peepoopee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Peepoopee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A070164C27B5B9A90079D2CF /* Build configuration list for PBXProject "Peepoopee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A070168427B5B9AE0079D2CF /* Debug */,
+				A070168527B5B9AE0079D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A070168627B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A070168727B5B9AE0079D2CF /* Debug */,
+				A070168827B5B9AE0079D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A070168A27B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A070168B27B5B9AE0079D2CF /* Debug */,
+				A070168C27B5B9AE0079D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A070168E27B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A070168F27B5B9AE0079D2CF /* Debug */,
+				A070169027B5B9AE0079D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A070164927B5B9A90079D2CF /* Project object */;
+}
