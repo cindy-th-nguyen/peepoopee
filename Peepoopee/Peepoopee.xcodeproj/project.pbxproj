@@ -22,6 +22,7 @@
 		A070167D27B5B9AD0079D2CF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070167C27B5B9AD0079D2CF /* NotificationController.swift */; };
 		A070167F27B5B9AD0079D2CF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070167E27B5B9AD0079D2CF /* ComplicationController.swift */; };
 		A070168127B5B9AE0079D2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A070168027B5B9AE0079D2CF /* Assets.xcassets */; };
+		A070169527B710090079D2CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070169427B710090079D2CF /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		A070168027B5B9AE0079D2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A070168227B5B9AE0079D2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A070168327B5B9AE0079D2CF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A070169427B710090079D2CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +131,9 @@
 		A070165327B5B9A90079D2CF /* Peepoopee */ = {
 			isa = PBXGroup;
 			children = (
+				A070169327B70FEC0079D2CF /* View */,
 				A070165427B5B9A90079D2CF /* AppDelegate.swift */,
 				A070165627B5B9A90079D2CF /* SceneDelegate.swift */,
-				A070165827B5B9A90079D2CF /* ViewController.swift */,
 				A070165A27B5B9A90079D2CF /* Main.storyboard */,
 				A070165D27B5B9AB0079D2CF /* Assets.xcassets */,
 				A070165F27B5B9AB0079D2CF /* LaunchScreen.storyboard */,
@@ -161,6 +163,15 @@
 				A070168327B5B9AE0079D2CF /* PushNotificationPayload.apns */,
 			);
 			path = "Peepoopee WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A070169327B70FEC0079D2CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A070165827B5B9A90079D2CF /* ViewController.swift */,
+				A070169427B710090079D2CF /* HomeViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A070169527B710090079D2CF /* HomeViewController.swift in Sources */,
 				A070165927B5B9A90079D2CF /* ViewController.swift in Sources */,
 				A070165527B5B9A90079D2CF /* AppDelegate.swift in Sources */,
 				A070165727B5B9A90079D2CF /* SceneDelegate.swift in Sources */,
