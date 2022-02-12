@@ -9,7 +9,6 @@ import UIKit
 import HomeKit
 
 class HomeViewController: UIViewController {
-    
     var home: HMHome!
     @IBOutlet var roomsTableView: UITableView!
     
@@ -46,7 +45,6 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: UITableViewDelegate {
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let room = self.home.rooms[indexPath.row]
         let roomViewController = RoomViewController.newInstance(room: room, home: self.home)
@@ -56,7 +54,6 @@ extension HomeViewController: UITableViewDelegate {
 }
 
 extension HomeViewController: UITableViewDataSource {
-    
     static let roomCellId = "rcid"
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

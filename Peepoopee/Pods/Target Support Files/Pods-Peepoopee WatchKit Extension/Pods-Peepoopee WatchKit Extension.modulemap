@@ -1,0 +1,6 @@
+framework module Pods_Peepoopee_WatchKit_Extension {
+  umbrella header "Pods-Peepoopee WatchKit Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

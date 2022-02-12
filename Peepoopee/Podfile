@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Peepoopee' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Pods for Peepoopee
+  pod 'lottie-ios'
+
+end
+
+target 'Peepoopee WatchKit App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Peepoopee WatchKit App
+
+end
+
+target 'Peepoopee WatchKit Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Peepoopee WatchKit Extension
+
+end

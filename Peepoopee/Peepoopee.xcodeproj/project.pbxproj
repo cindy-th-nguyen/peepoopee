@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6170168C5DD2625548F2151D /* Pods_Peepoopee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1945C5657FEA384763B86B /* Pods_Peepoopee.framework */; };
 		A070165527B5B9A90079D2CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070165427B5B9A90079D2CF /* AppDelegate.swift */; };
 		A070165727B5B9A90079D2CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070165627B5B9A90079D2CF /* SceneDelegate.swift */; };
 		A070165927B5B9A90079D2CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070165827B5B9A90079D2CF /* ViewController.swift */; };
@@ -23,6 +24,13 @@
 		A070167F27B5B9AD0079D2CF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070167E27B5B9AD0079D2CF /* ComplicationController.swift */; };
 		A070168127B5B9AE0079D2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A070168027B5B9AE0079D2CF /* Assets.xcassets */; };
 		A070169527B710090079D2CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070169427B710090079D2CF /* HomeViewController.swift */; };
+		A070169727B7126E0079D2CF /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070169627B7126E0079D2CF /* RoomViewController.swift */; };
+		A070169927B712C80079D2CF /* AccessoryBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070169827B712C80079D2CF /* AccessoryBrowserViewController.swift */; };
+		A070169B27B713F80079D2CF /* AccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070169A27B713F80079D2CF /* AccessoryViewController.swift */; };
+		A0BADD2127B71DDF006E7E1A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BADD2027B71DDF006E7E1A /* UIView+Extension.swift */; };
+		A0F2E82C27B7EB0700722938 /* 17081-pepe-poo-poo.json in Resources */ = {isa = PBXBuildFile; fileRef = A0F2E82B27B7EB0700722938 /* 17081-pepe-poo-poo.json */; };
+		D42885503D52BB43EF692034 /* Pods_Peepoopee_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9B1CF41740B5A3E3382617 /* Pods_Peepoopee_WatchKit_Extension.framework */; };
+		D75E203B20FAE03D05F222EE /* Pods_Peepoopee_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CBC3E6F288D3F21A297186 /* Pods_Peepoopee_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +76,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		031C331EC0C1C89E6701769E /* Pods-Peepoopee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peepoopee.release.xcconfig"; path = "Target Support Files/Pods-Peepoopee/Pods-Peepoopee.release.xcconfig"; sourceTree = "<group>"; };
+		036BB68222A9CAEA9EF15EB2 /* Pods-Peepoopee WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peepoopee WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-Peepoopee WatchKit App/Pods-Peepoopee WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		0E9B1CF41740B5A3E3382617 /* Pods_Peepoopee_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peepoopee_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4843694D07DB923011DCA0 /* Pods-Peepoopee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peepoopee.debug.xcconfig"; path = "Target Support Files/Pods-Peepoopee/Pods-Peepoopee.debug.xcconfig"; sourceTree = "<group>"; };
+		67CBC3E6F288D3F21A297186 /* Pods_Peepoopee_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peepoopee_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1F2DB43102E20C974C6467 /* Pods-Peepoopee WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peepoopee WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Peepoopee WatchKit Extension/Pods-Peepoopee WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		A070165127B5B9A90079D2CF /* Peepoopee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peepoopee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A070165427B5B9A90079D2CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A070165627B5B9A90079D2CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,13 +102,30 @@
 		A070168227B5B9AE0079D2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A070168327B5B9AE0079D2CF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A070169427B710090079D2CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A070169627B7126E0079D2CF /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		A070169827B712C80079D2CF /* AccessoryBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryBrowserViewController.swift; sourceTree = "<group>"; };
+		A070169A27B713F80079D2CF /* AccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewController.swift; sourceTree = "<group>"; };
+		A0BADD2027B71DDF006E7E1A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A0F2E82B27B7EB0700722938 /* 17081-pepe-poo-poo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "17081-pepe-poo-poo.json"; sourceTree = "<group>"; };
+		BD1945C5657FEA384763B86B /* Pods_Peepoopee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peepoopee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4531DF133BA27CACFD2945C /* Pods-Peepoopee WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peepoopee WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-Peepoopee WatchKit App/Pods-Peepoopee WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		E9107A6110B4FF588BE44746 /* Pods-Peepoopee WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peepoopee WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Peepoopee WatchKit Extension/Pods-Peepoopee WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4BE60F5E669E07F609FA30CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75E203B20FAE03D05F222EE /* Pods_Peepoopee_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A070164E27B5B9A90079D2CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6170168C5DD2625548F2151D /* Pods_Peepoopee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +133,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42885503D52BB43EF692034 /* Pods_Peepoopee_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89AA2AE7CBC99C3F8C7C759C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD1945C5657FEA384763B86B /* Pods_Peepoopee.framework */,
+				67CBC3E6F288D3F21A297186 /* Pods_Peepoopee_WatchKit_App.framework */,
+				0E9B1CF41740B5A3E3382617 /* Pods_Peepoopee_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A070164827B5B9A90079D2CF = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +157,8 @@
 				A070166927B5B9AB0079D2CF /* Peepoopee WatchKit App */,
 				A070167727B5B9AD0079D2CF /* Peepoopee WatchKit Extension */,
 				A070165227B5B9A90079D2CF /* Products */,
+				B17B5FAA67DDDD2DA4CD0905 /* Pods */,
+				89AA2AE7CBC99C3F8C7C759C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +175,8 @@
 		A070165327B5B9A90079D2CF /* Peepoopee */ = {
 			isa = PBXGroup;
 			children = (
+				A0F2E82827B7E6F100722938 /* Ressources */,
+				A0BADD1F27B71D93006E7E1A /* Configuration */,
 				A070169327B70FEC0079D2CF /* View */,
 				A070165427B5B9A90079D2CF /* AppDelegate.swift */,
 				A070165627B5B9A90079D2CF /* SceneDelegate.swift */,
@@ -170,8 +216,40 @@
 			children = (
 				A070165827B5B9A90079D2CF /* ViewController.swift */,
 				A070169427B710090079D2CF /* HomeViewController.swift */,
+				A070169627B7126E0079D2CF /* RoomViewController.swift */,
+				A070169827B712C80079D2CF /* AccessoryBrowserViewController.swift */,
+				A070169A27B713F80079D2CF /* AccessoryViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A0BADD1F27B71D93006E7E1A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A0BADD2027B71DDF006E7E1A /* UIView+Extension.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		A0F2E82827B7E6F100722938 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				A0F2E82B27B7EB0700722938 /* 17081-pepe-poo-poo.json */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		B17B5FAA67DDDD2DA4CD0905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B4843694D07DB923011DCA0 /* Pods-Peepoopee.debug.xcconfig */,
+				031C331EC0C1C89E6701769E /* Pods-Peepoopee.release.xcconfig */,
+				036BB68222A9CAEA9EF15EB2 /* Pods-Peepoopee WatchKit App.debug.xcconfig */,
+				C4531DF133BA27CACFD2945C /* Pods-Peepoopee WatchKit App.release.xcconfig */,
+				E9107A6110B4FF588BE44746 /* Pods-Peepoopee WatchKit Extension.debug.xcconfig */,
+				9E1F2DB43102E20C974C6467 /* Pods-Peepoopee WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A070168E27B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee" */;
 			buildPhases = (
+				F3D6FBE91FC0B7B2C629FD03 /* [CP] Check Pods Manifest.lock */,
 				A070164D27B5B9A90079D2CF /* Sources */,
 				A070164E27B5B9A90079D2CF /* Frameworks */,
 				A070164F27B5B9A90079D2CF /* Resources */,
 				A070168D27B5B9AE0079D2CF /* Embed Watch Content */,
+				966A122DA8DFEE6D3422CFA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,8 +280,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A070168A27B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee WatchKit App" */;
 			buildPhases = (
+				4855062E1F3CE3F76370BD74 /* [CP] Check Pods Manifest.lock */,
 				A070166327B5B9AB0079D2CF /* Resources */,
 				A070168927B5B9AE0079D2CF /* Embed App Extensions */,
+				4BE60F5E669E07F609FA30CB /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A070168627B5B9AE0079D2CF /* Build configuration list for PBXNativeTarget "Peepoopee WatchKit Extension" */;
 			buildPhases = (
+				AF5C0E4571378A33859FCEAE /* [CP] Check Pods Manifest.lock */,
 				A070166F27B5B9AD0079D2CF /* Sources */,
 				A070167027B5B9AD0079D2CF /* Frameworks */,
 				A070167127B5B9AD0079D2CF /* Resources */,
@@ -277,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A070166127B5B9AB0079D2CF /* LaunchScreen.storyboard in Resources */,
+				A0F2E82C27B7EB0700722938 /* 17081-pepe-poo-poo.json in Resources */,
 				A070165E27B5B9AB0079D2CF /* Assets.xcassets in Resources */,
 				A070165C27B5B9A90079D2CF /* Main.storyboard in Resources */,
 			);
@@ -301,6 +385,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4855062E1F3CE3F76370BD74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peepoopee WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966A122DA8DFEE6D3422CFA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Peepoopee/Pods-Peepoopee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Peepoopee/Pods-Peepoopee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Peepoopee/Pods-Peepoopee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5C0E4571378A33859FCEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peepoopee WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D6FBE91FC0B7B2C629FD03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peepoopee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A070164D27B5B9A90079D2CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,7 +478,11 @@
 			files = (
 				A070169527B710090079D2CF /* HomeViewController.swift in Sources */,
 				A070165927B5B9A90079D2CF /* ViewController.swift in Sources */,
+				A0BADD2127B71DDF006E7E1A /* UIView+Extension.swift in Sources */,
 				A070165527B5B9A90079D2CF /* AppDelegate.swift in Sources */,
+				A070169727B7126E0079D2CF /* RoomViewController.swift in Sources */,
+				A070169B27B713F80079D2CF /* AccessoryViewController.swift in Sources */,
+				A070169927B712C80079D2CF /* AccessoryBrowserViewController.swift in Sources */,
 				A070165727B5B9A90079D2CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +654,7 @@
 		};
 		A070168727B5B9AE0079D2CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9107A6110B4FF588BE44746 /* Pods-Peepoopee WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +686,7 @@
 		};
 		A070168827B5B9AE0079D2CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1F2DB43102E20C974C6467 /* Pods-Peepoopee WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +719,7 @@
 		};
 		A070168B27B5B9AE0079D2CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036BB68222A9CAEA9EF15EB2 /* Pods-Peepoopee WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -569,6 +746,7 @@
 		};
 		A070168C27B5B9AE0079D2CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4531DF133BA27CACFD2945C /* Pods-Peepoopee WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -596,6 +774,7 @@
 		};
 		A070168F27B5B9AE0079D2CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4843694D07DB923011DCA0 /* Pods-Peepoopee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -626,6 +805,7 @@
 		};
 		A070169027B5B9AE0079D2CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031C331EC0C1C89E6701769E /* Pods-Peepoopee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
